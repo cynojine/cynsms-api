@@ -15,7 +15,7 @@ To run Cyn SMS API you have to install Cyn SMS Application on your server.
 For more details please visit: [Cyn SMS](https://cynsms.online/)
 ```
 php >=5.6
-Ultimate SMS - Bulk SMS Application For Markting
+Cyn SMS - Bulk SMS Application For Markting
 ```
 
 ### Installing
