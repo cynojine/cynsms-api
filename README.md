@@ -1,8 +1,8 @@
 
-[![Latest Stable Version](https://poser.pugx.org/shamim/ultimate-sms-api/v/stable)](https://packagist.org/packages/shamim/ultimate-sms-api?format=flat-square)
-[![License](https://poser.pugx.org/shamim/ultimate-sms-api/license)](https://packagist.org/packages/shamim/ultimate-sms-api?format=flat-square)
-[![GitHub issues](https://img.shields.io/github/issues/akasham67/ultimate-sms-api.svg?style=flat-square)](https://github.com/akasham67/ultimate-sms-api/issues)
-[![GitHub stars](https://img.shields.io/github/stars/akasham67/ultimate-sms-api.svg?style=flat-square)](https://github.com/akasham67/ultimate-sms-api/stargazers)
+[![Latest Stable Version](https://poser.pugx.org/cynojine/cynsms-api/v/stable)](https://packagist.org/packages/cynojine/cynsms-api?format=flat-square)
+[![License](https://poser.pugx.org/cynojine/cynsms-api/license)](https://packagist.org/packages/cynojine/cynsms-api?format=flat-square)
+[![GitHub issues](https://img.shields.io/github/issues/akasham67/ultimate-sms-api.svg?style=flat-square)](https://github.com/cynojine/cynsms-api/issues)
+[![GitHub stars](https://img.shields.io/github/stars/cynojine/cynsms-api.svg?style=flat-square)](https://github.com/cynojine/cynsms-api/stargazers)
 
 # Cyn SMS API
 
@@ -11,7 +11,7 @@ Cyn SMS API is build for Cyn SMS - Bulk SMS Application For Marketing
 
 ### Prerequisites
 
-To run Ultimate SMS API you have to install Cyn SMS Application on your server. 
+To run Cyn SMS API you have to install Cyn SMS Application on your server. 
 For more details please visit: [Cyn SMS](https://cynsms.online/)
 ```
 php >=5.6
