@@ -11,8 +11,6 @@ Cyn SMS API is build for Cyn SMS - Bulk SMS Application For Marketing
 
 ### Prerequisites
 
-To run Cyn SMS API you have to install Cyn SMS Application on your server. 
-For more details please visit: [Cyn SMS](https://cynsms.online/)
 ```
 php >=5.6
 Cyn SMS - Bulk SMS Application For Markting
@@ -63,11 +61,11 @@ $destination = '8801810000000';
 You have to must include Country code at beginning of the phone number.  
 
 ### Step 5:
-Replace your Install URL like `https://mywebhost.com/sms/api` with `https://cynsms.online/`
+Replace your Install URL like `https://mywebhost.com/sms/api` with `https://console.cynsms.online/`
 `sms/api` is mandatory on your install url
 
 ```php
-$url = 'https://cynsms.online/sms/api';
+$url = 'https://console.cynsms.online/sms/api';
 ```
 // SMS Body
 ```php
