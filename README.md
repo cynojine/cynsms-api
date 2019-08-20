@@ -43,7 +43,7 @@ require 'vendor/autoload.php';
 use CynSMS\CynSMSAPI;
 ```
 ### Step 2:
-set your API_KEY from `https://mywebhost.com/sms-api/info` (your application install url)
+set your API_KEY from `https://console.cynsms.online/sms-api/info` (user panel)
 ```php
 $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 ```
