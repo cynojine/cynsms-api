@@ -34,12 +34,12 @@ git clone https://github.com/cynojine/cynsms-api.git
 
 
  ### Step 1:
-If install Ultimate SMS API using Git Clone then load your Ultimate SMS API Class file and Use namespace. 
+If install Cyn SMS API using Git Clone then load your Ultimate SMS API Class file and Use namespace. 
 ```php
 require_once 'src/Class_Cyn_SMS_API.php';
 use CynSMS\CynSMSAPI;
 ```
-If install Ultimate SMS API using Composer then Require/Include autoload.php file in the index.php of your project or whatever file you need to use **Ultimate SMS API** classes:. 
+If install Cyn SMS API using Composer then Require/Include autoload.php file in the index.php of your project or whatever file you need to use **Cyn SMS API** classes:. 
 ```php
 require 'vendor/autoload.php';
 use CynSMS\CynSMSAPI;
