@@ -56,15 +56,15 @@ $from = '2699655847554';
 ### Step 4:
 the number we are sending to - Any phone number
 ```php
-$destination = '8801810000000';
+$destination = '2699655847554';
 ```
 the number we are sending to - Any phone number
 ```php
-$destination = '8801810000000';
+$destination = '2699655847554';
 ```
 For multiple number please use Comma (,) after every single number.
 ```php
-$destination = '8801810000000,8801721000000,880167000000,01913000000';
+$destination = '2699655847554,2699655847556,2699655847557,2699655847558';
 ```
 You can insert maximum 100 numbers using comma in single api request.
 
