@@ -11,8 +11,6 @@ Cyn SMS API is build for Cyn SMS - Bulk SMS Application For Marketing
 
 ### Prerequisites
 
-To run Cyn SMS API you have to install Cyn SMS Application on your server. 
-For more details please visit: [Cyn SMS](https://cynsms.online/)
 ```
 php >=5.6
 Cyn SMS - Bulk SMS Application For Markting
@@ -45,7 +43,7 @@ require 'vendor/autoload.php';
 use CynSMS\CynSMSAPI;
 ```
 ### Step 2:
-set your API_KEY from `https://cynsms.online/sms-api/info` (your application install url)
+set your API_KEY from `https://sms.cynojine.com/sms-api/info` (user panel)
 ```php
 $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 ```
@@ -58,16 +56,27 @@ $from = '2699655847554';
 ### Step 4:
 the number we are sending to - Any phone number
 ```php
-$destination = '8801810000000';
+$destination = '2699655847554';
 ```
-You have to must include Country code at beginning of the phone number.  
+the number we are sending to - Any phone number
+```php
+$destination = '2699655847554';
+```
+For multiple number please use Comma (,) after every single number.
+```php
+$destination = '2699655847554,2699655847556,2699655847557,2699655847558';
+```
+You can insert maximum 100 numbers using comma in single api request.
+
+You have to must include Country code at beginning of the phone number.
+  
 
 ### Step 5:
-Replace your Install URL like `https://mywebhost.com/sms/api` with `https://cynsms.online/`
+Replace your Install URL like `https://mywebhost.com/sms/api` with `https://sms.cynojine.com/`
 `sms/api` is mandatory on your install url
 
 ```php
-$url = 'https://cynsms.online/sms/api';
+$url = 'https://sms.cynojine.com/sms/api';
 ```
 // SMS Body
 ```php
