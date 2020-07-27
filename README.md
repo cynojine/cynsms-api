@@ -43,7 +43,7 @@ require 'vendor/autoload.php';
 use CynSMS\CynSMSAPI;
 ```
 ### Step 2:
-set your API_KEY from `https://console.cynsms.online/sms-api/info` (user panel)
+set your API_KEY from `https://sms.cynojine.com/sms-api/info` (user panel)
 ```php
 $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 ```
@@ -61,11 +61,11 @@ $destination = '8801810000000';
 You have to must include Country code at beginning of the phone number.  
 
 ### Step 5:
-Replace your Install URL like `https://mywebhost.com/sms/api` with `https://console.cynsms.online/`
+Replace your Install URL like `https://mywebhost.com/sms/api` with `https://sms.cynojine.com/`
 `sms/api` is mandatory on your install url
 
 ```php
-$url = 'https://console.cynsms.online/sms/api';
+$url = 'https://sms.cynojine.com/sms/api';
 ```
 // SMS Body
 ```php
