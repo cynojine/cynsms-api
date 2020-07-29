@@ -21,7 +21,7 @@ require_once 'src/Class_Cyn_SMS_API.php';
 use CynSMS\CynSMSAPI;
 
 
-// Step 2: set your API_KEY from https://console.cynsms.online/sms-api/info
+// Step 2: set your API_KEY from https://sms.cynojine.com/sms-api/info
 
 $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 
@@ -32,10 +32,10 @@ $from = 'Cynojine';
 // Step 4: the number we are sending to - Any phone number
 $destination = '260965858668';
 
-// Step 5: Replace your  URL like https://mywebhost.com/sms/api with https://console.cynsms.online/
+
 // <sms/api> is mandatory.
 
-$url = 'https://console.cynsms.online/sms/api';
+$url = 'https://sms.cynojine.com/sms/api';
 
 // the sms body
 $sms = 'test message from Cyn SMS';
