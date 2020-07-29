@@ -2,15 +2,15 @@
 
 // Step 1: set your API_KEY from https://sms.cynojine.com/sms-api/info
 
-$api_key = 'a3l0am5pd3JodWxwQnhCbE9nYkM=';
+$api_key = 'YWRtaW46YWRtaW4u7GFzc3dvcmQ=';
 
 // Step 2: Change the from number below. It can be a valid phone number or a String
-$from = '260966748978';
+$from = 'Cynojine';
 
 // Step 3: the number we are sending to - Any phone number
 // Using comma (,) at end of the every phone number. You must have to insert country code at beginning of the number
 //You can insert maximum 100 number at a time
-$destination = '260966748978,260966748975,260966748974,260966748970';
+$destination = '260965058768,260950482560,260959003917';
 
 // Step 4: Replace your Install URL like https://mywebhost.com/sms/api with https://sms.cynojine.com/
 // <sms/api> is mandatory.
@@ -18,7 +18,7 @@ $destination = '260966748978,260966748975,260966748974,260966748970';
 $url = 'https://sms.cynojine.com/sms/api';
 
 // the sms body
-$sms = 'test message from Cyn Sms';
+$sms = 'test message from CynSms https://sms.cynojine.com';
 
 // Create SMS Body for request
 $sms_body = array(
