@@ -201,4 +201,5 @@ Cyn SMS API return response with `json` format, like:
 
 ## Authors
 
-* **Kazashim** - *Initial work* - [cynojine](https://github.com/cynojine)
+* **Kazashim Kuzasuwat** - *Initial work* - [cynojine](https://github.com/cynojine)
+* **Email** [kazashim](mailto:kazashim@cynojine.com)
