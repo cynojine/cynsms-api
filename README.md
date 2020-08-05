@@ -43,7 +43,7 @@ require 'vendor/autoload.php';
 use CynSMS\CynSMSAPI;
 ```
 ### Step 2:
-set your API_KEY from `https://sms.cynojine.com/sms-api/info` (user panel)
+set your API_KEY from `http://sms.cynojine.com/sms-api/info` (user panel)
 ```php
 $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 ```
@@ -72,7 +72,7 @@ You have to must include Country code at beginning of the phone number.
   
 
 ### Step 5:
-Replace your Install URL like `https://mywebhost.com/sms/api` with `https://sms.cynojine.com/`
+Replace your Install URL like `http://mywebhost.com/sms/api` with `http://sms.cynojine.com/`
 `sms/api` is mandatory on your install url
 
 ```php
@@ -93,7 +93,7 @@ $voice = '1'; //For voice message
 // MMS SMS
 ```php
 $mms = '1'; //For mms message
-$media_url = 'https://yourmediaurl.com'; //Insert your media url
+$media_url = 'http://yourmediaurl.com'; //Insert your media url
 ```
 // Schedule SMS
 ```php
