@@ -2,29 +2,28 @@
 
 // Step 1: set your API_KEY from https://sms.cynojine.com/sms-api/info
 
-$api_key = 'YWRtaW46YWRtaW4ucGFzc3dvc6Q=';
+$key = 'eeb45fcda355161e419c5763f8b943ec';
 
 // Step 2: Change the from number below. It can be a valid phone number or a String
-$from = 'Cynojine';
+$senderid = 'Cynojine';
 
 // Step 3: the number we are sending to - Any phone number. You must have to insert country code at beginning of the number
-$destination = '260967311704';
+$contacts = '260965058568';
 
 // Step 4: Replace your Install URL like https://mywebhost.com/sms/api with https://sms.cynojine.com/
 // <sms/api> is mandatory.
 
-$url = 'https://sms.cynojine.com/sms/api';
+$url = 'https://bulksms.zamtel.co.zm/api/sms/send/batch';
 
 // the sms body
-$sms = 'test message from CynSms https://sms.cynojine.com';
+$message = 'test message from Cyn Sms';
 
 // Create SMS Body for request
 $sms_body = array(
-    'action' => 'send-sms',
-    'api_key' => $api_key,
-    'to' => $destination,
-    'from' => $from,
-    'sms' => $sms
+    'key' => $key,
+    'contacts' => $contacts,
+    'senderid' => $senderid,
+    'message' => $message
 );
 
 $send_data = http_build_query($sms_body);
