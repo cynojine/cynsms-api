@@ -3,7 +3,8 @@
 [![License](https://poser.pugx.org/cynojine/cynsms-api/license)](https://packagist.org/packages/cynojine/cynsms-api?format=flat-square)
 [![GitHub issues](https://img.shields.io/github/issues/akasham67/ultimate-sms-api.svg?style=flat-square)](https://github.com/cynojine/cynsms-api/issues)
 [![GitHub stars](https://img.shields.io/github/stars/cynojine/cynsms-api.svg?style=flat-square)](https://github.com/cynojine/cynsms-api/stargazers)
-
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cynojine/cynsms-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cynojine/cynsms-api/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/cynojine/cynsms-api/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 # Cyn SMS API
 
 Cyn SMS API is build for Cyn SMS - Bulk SMS Application For Marketing
