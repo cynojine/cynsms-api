@@ -200,6 +200,9 @@ Cyn SMS API return response with `json` format, like:
 | `110` | Media url required |
 | `111` | SMS contain spam word. Wait for approval |
 
+## New PHP Library 
+[CynSMS PHP Library](https://github.com/cynojine/CynSMS-PHP-Lib)
+
 ## Authors
 
 * **Kazashim Kuzasuwat** - *Initial work* - [cynojine](https://github.com/cynojine)
