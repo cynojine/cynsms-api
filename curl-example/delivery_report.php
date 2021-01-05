@@ -33,6 +33,6 @@ try {
 
     var_dump($output);
 
-}catch (Exception $exception){
+}catch (Exception $exception) {
     echo $exception->getMessage();
 }
