@@ -175,6 +175,13 @@ Get your account balance
 ```php
 $get_balance=$client->check_balance($api_key,$url);
 ```
+
+## Get Delivery Reports
+Get your all message
+```php
+$get_inbox=$client->get_inbox($api_key,$url);
+```
+
 ## Response
 Cyn SMS API return response with `json` format, like:
 
